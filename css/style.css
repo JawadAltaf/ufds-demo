@@ -86,3 +86,14 @@ footer{background:#08111e;color:#93a1b6;font-size:.88rem;padding:4.5rem 0 2rem}.
 .g-x4{--bs-gutter-x:3rem;--bs-gutter-y:0}.capi{display:flex;gap:1.1rem;padding:1.6rem 0;border-bottom:1px solid var(--line)}
 .capi .ic{flex:0 0 48px;height:48px;border-radius:50%;background:var(--soft);color:var(--blue);display:grid;place-items:center;font-size:1.25rem;transition:.3s}.capi:hover .ic{background:var(--blue);color:#fff}
 .capi h3{font-size:1.08rem;margin:0 0 .3rem}.capi p{margin:0;color:var(--mute);font-size:.92rem}
+
+.stage.free{aspect-ratio:auto;width:100%;min-width:0}
+.wall{position:absolute;left:38%;right:5%;top:11%;bottom:15%;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:1fr 1fr;gap:6px;z-index:1;background:#08111e;padding:6px;border:1px solid #2a3b57}
+.wt{position:relative;overflow:hidden;background:#000}.wt img{width:100%;height:100%;object-fit:cover;display:block;opacity:.9}.wt .bx{opacity:1;transform:none;border-width:1px}.wt .bx i{font-size:.5rem;top:-12px;padding:1px 3px}
+.wt>b{position:absolute;left:5px;bottom:4px;font:500 .58rem 'IBM Plex Sans';background:rgba(8,17,30,.8);color:#cfe0ff;padding:2px 5px}
+@media(max-width:767px){.wall{left:4%;top:8%;bottom:48%}}
+.aisec{background:var(--ink);color:#fff}.aisec h2{font-size:clamp(1.8rem,3.2vw,2.6rem);line-height:1.12}
+.dchips{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1.6rem}.dchips span{font-size:.8rem;border:1px solid #34476a;color:#b9caea;padding:.3rem .8rem}
+.sq{display:flex;gap:.8rem;align-items:center;background:#fff;color:var(--ink);padding:1rem 1.2rem;font-size:1rem;min-height:58px}.sq i{color:var(--blue)}.sq em{width:2px;height:1.2em;background:var(--blue);animation:bl 1s infinite}
+.rc{position:relative;aspect-ratio:4/3;background-size:420%;background-repeat:no-repeat;border:1px solid #2a3b57;overflow:hidden}.rc b{position:absolute;left:0;right:0;bottom:0;background:rgba(8,17,30,.85);font:500 .74rem 'IBM Plex Sans';padding:.4rem .6rem}.rc:before{content:"";position:absolute;inset:22% 20%;border:1.5px solid #5b8cff}
+.note2{color:#7f93b3;font-size:.78rem;margin:.9rem 0 0}.tile small{display:block;color:#c3cede;font-size:.78rem;margin-top:.2rem}
